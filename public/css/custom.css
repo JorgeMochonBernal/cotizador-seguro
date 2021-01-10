@@ -1,7 +1,7 @@
 body {
     background: #e96443;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #904e95, #e96443); 
+    background: linear-gradient(to right, #904e95, #e96443);
 }
 .btn.btn-raised.btn-primary {
     background-color: #00838F!important;
@@ -13,7 +13,8 @@ body {
     background-color: #FBE9E7;
     border: 1px solid #F4511E;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
     text-align: center;
     color: #F4511E;
 }
@@ -72,47 +73,47 @@ body {
     text-align: center;
     font-size: 10px;
   }
-  
+
   .spinner > div {
     background-color: #26C6DA;
     height: 100%;
     width: 6px;
     display: inline-block;
-    
+
     -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
     animation: sk-stretchdelay 1.2s infinite ease-in-out;
   }
-  
+
   .spinner .rect2 {
     -webkit-animation-delay: -1.1s;
     animation-delay: -1.1s;
   }
-  
+
   .spinner .rect3 {
     -webkit-animation-delay: -1.0s;
     animation-delay: -1.0s;
   }
-  
+
   .spinner .rect4 {
     -webkit-animation-delay: -0.9s;
     animation-delay: -0.9s;
   }
-  
+
   .spinner .rect5 {
     -webkit-animation-delay: -0.8s;
     animation-delay: -0.8s;
   }
-  
+
   @-webkit-keyframes sk-stretchdelay {
-    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
     20% { -webkit-transform: scaleY(1.0) }
   }
-  
+
   @keyframes sk-stretchdelay {
-    0%, 40%, 100% { 
+    0%, 40%, 100% {
       transform: scaleY(0.4);
       -webkit-transform: scaleY(0.4);
-    }  20% { 
+    }  20% {
       transform: scaleY(1.0);
       -webkit-transform: scaleY(1.0);
     }

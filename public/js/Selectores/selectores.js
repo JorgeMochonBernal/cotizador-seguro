@@ -4,3 +4,4 @@ export const min = max - 25;
 
 export const marca = document.querySelector('#marca');
 export const formulario = document.querySelector('#cotizar-seguro');
+export const resultado = document.querySelector('#resultado');
